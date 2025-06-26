@@ -340,6 +340,7 @@ cp -r binaries/grub-*/unicode.pf2 $part_efi/grub/fonts
 cp -r binaries/shim-signed_*/*.efi $part_efi/EFI/BOOT
 cp binaries/grub-*/grubx64.efi $part_efi/EFI/BOOT
 cp binaries/supergrubdisk/*.efi $part_efi/EFI/BOOT/supergrubdisk.efi
+cp binaries/efishell/*.efi $part_efi/EFI/BOOT/efishell.efi
 cp -r cert/ $part_efi/EFI/
 
 dd conv=fsync status=none if="$part_efi/grub/i386-pc/boot.img" of="${dev}" bs=1 count=446
