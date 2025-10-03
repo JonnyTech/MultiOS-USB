@@ -12,8 +12,8 @@ Below is just a list of tested and working systems. The actual number of support
 | [Clonezilla](https://clonezilla.org) | [clonezilla-live-3.1.3-11-amd64.iso](https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.1.3-11-amd64.iso) | yes | [no](../config/clonezilla) | yes | Debian |
 | [Damn Small Linux](https://damnsmalllinux.org) | [dsl-2024.rc1.iso](https://damnsmalllinux.org/download/dsl-2024.rc1.iso) | yes | [no](../config/damnsmalllinux) | no | - |
 | [Debian](https://www.debian.org) | [debian-live-12.5.0-amd64-standard.iso](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-standard.iso) | no | yes | yes | Debian |
+|  | [debian-live-13.0.0-amd64-xfce.iso](https://cdimage.debian.org/debian-cd/13.0.0-live/amd64/iso-hybrid/debian-live-13.0.0-amd64-xfce.iso) | yes | yes | yes | Debian |
 |  | [mini.iso](https://cdimage.debian.org/debian/dists/stable/main/installer-amd64/current/images/netboot/mini.iso) | no | [no](../config/debian) | yes | Debian |
-| [Debian (trixie testing)](https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/) | [debian-live-testing-amd64-xfce.iso](https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/debian-live-testing-amd64-xfce.iso) | yes | yes | yes | Debian |
 | [Devuan](https://www.devuan.org) | devuan_daedalus_5.0.0_amd64_desktop-live.iso | no | [no](../config/devuan) | yes | Debian |
 |  | devuan_daedalus_5.0.0_amd64_minimal-live.iso | no | [no](../config/devuan) | yes | Debian |
 | [Dr.Parted Live](https://dr-parted-live.sourceforge.io) | [Dr.Parted-Live24.03.1-amd64.iso](https://sourceforge.net/projects/dr-parted-live/files/Download/Dr.Parted-Live24.03.1-amd64.iso) | no | [no](../config/dr-parted-live) | yes | Debian |
@@ -56,6 +56,7 @@ Below is just a list of tested and working systems. The actual number of support
 |  | [MX-23.4_KDE_x64.iso](https://downloads.sourceforge.net/mx-linux/MX-23.4_KDE_x64.iso) | yes | yes | yes | Debian |
 | [NixOS](https://nixos.org) | [nixos-gnome-23.11.5353.878ef7d9721b-x86_64-linux.iso](https://releases.nixos.org/nixos/23.11/nixos-23.11.5353.878ef7d9721b/nixos-gnome-23.11.5353.878ef7d9721b-x86_64-linux.iso) | no | yes | no | - |
 | [openSUSE](https://www.opensuse.org) | [openSUSE-Leap-15.5-GNOME-Live-x86_64-Build13.15-Media.iso](https://download.opensuse.org/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-x86_64-Build13.15-Media.iso) | yes | yes | yes | SLES |
+|  | [Leap-16.0-online-installer-x86_64.install.iso](https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso) | yes | yes | yes | SLES |
 | [Oracle Linux](https://www.oracle.com/linux) | [OracleLinux-R9-U3-x86_64-boot.iso](https://yum.oracle.com/ISOS/OracleLinux/OL9/u3/x86_64/OracleLinux-R9-U3-x86_64-boot.iso) | yes | [no](../config/oracleLinux) | yes | Oracle |
 | [peppermintOS](https://peppermintos.com) | [PeppermintOS-Debian-64.iso](https://sourceforge.net/projects/peppermintos/files/isos/XFCE/PeppermintOS-Debian-64.iso) | no | yes | yes | Debian |
 | [Plop Linux](https://www.plop.at/en/ploplinux/index.html) | [ploplinux-24.2-x86_64.iso](https://download.plop.at/ploplinux/24.2/live/ploplinux-24.2-x86_64.iso) | yes | [no](../config/ploplinux) | no | - |
@@ -70,6 +71,7 @@ Below is just a list of tested and working systems. The actual number of support
 |  | [Solus-4.5-Plasma.iso](https://downloads.getsol.us/isos/4.5/Solus-4.5-Plasma.iso) | yes | [no](../config/solus) | yes | Solus |
 |  | [Solus-4.5-XFCE-Beta.iso](https://downloads.getsol.us/isos/4.5/Solus-4.5-XFCE-Beta.iso) | yes | [no](../config/solus) | yes | Solus |
 | [SparkyLinux](https://sparkylinux.org) | [sparkylinux-7.3-x86_64-lxqt.iso](https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.3-x86_64-lxqt.iso) | no | yes | yes | Debian |
+|  | [sparkylinux-8.0-x86_64-xfce.iso](https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.0-x86_64-xfce.iso) | yes | yes | yes | Debian |
 | [SystemRescue](https://www.system-rescue.org) | [systemrescue-11.00-amd64.iso](https://downloads.sourceforge.net/systemrescuecd/systemrescue-11.00-amd64.iso) | yes | yes | no | - |
 | [Tails](https://tails.net) | [tails-amd64-6.0.iso](https://download.tails.net/tails/stable/tails-amd64-6.0/tails-amd64-6.0.iso) | no | [no](../config/tails) | yes | Debian |
 | [TUXEDO OS](https://os.tuxedocomputers.com) | [TUXEDO-OS-2-202402220947.iso](https://os.tuxedocomputers.com/TUXEDO-OS-2-202402220947.iso) | yes | yes | yes | TUXEDO |
